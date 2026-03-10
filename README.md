@@ -29,7 +29,7 @@ data/person.csv
 The dataset contains example information about people and is used to demonstrate relational operations.
 
 ## Project Structure
-
+```
 pyspark-relational-operations/
   data/
     person.csv
@@ -43,11 +43,11 @@ pyspark-relational-operations/
     grouping_aggregation.py
     outer_join.py
   README.md
-
+```
 ## Running the Code
 
 Example command for running a task:
-spark-submit tasks/union.py data/person.csv
+```spark-submit tasks/union.py data/person.csv```
 
 
 Make sure **Apache Spark** is installed and available in your environment.
