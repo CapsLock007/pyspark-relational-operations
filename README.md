@@ -21,10 +21,7 @@ Each operation is implemented in a separate Python script.
 
 ## Dataset
 
-All scripts use the dataset:
-
-data/person.csv
-
+All scripts use the dataset: ```data/person.csv```
 
 The dataset contains example information about people and is used to demonstrate relational operations.
 
