@@ -29,7 +29,7 @@ data/person.csv
 The dataset contains example information about people and is used to demonstrate relational operations.
 
 ## Project Structure
-```
+
 pyspark-relational-operations/
   data/
     person.csv
@@ -43,6 +43,23 @@ pyspark-relational-operations/
     grouping_aggregation.py
     outer_join.py
   README.md
+```
+pyspark-relational-operations/
+│
+├── data/
+│ └── person.csv
+│
+├── tasks/
+│ ├── union.py
+│ ├── intersection.py
+│ ├── difference.py
+│ ├── inner_join.py
+│ ├── selection.py
+│ ├── projection.py
+│ ├── grouping_aggregation.py
+│ └── outer_join.py
+│
+└── README.md
 ```
 ## Running the Code
 
